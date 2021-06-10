@@ -1,0 +1,150 @@
+.home{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-image: url(/img/h1.png);
+    background-size: cover;
+}
+.home h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20vh;
+}
+.typewriter {
+    
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 10vh;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+.text h1{
+   text-align: center;
+   margin-top: 5vh;
+   font-size: 6vh;
+}
+.text{
+    width: 80%;
+    margin: auto;
+   
+}
+.text p{
+    margin-top: 2vh;
+    line-height: 25px;
+    color: grey;
+}
+.text1{
+   background-image: url(/img/d.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 5vhvh;
+   width: 80%;
+   height: 80vh;
+   margin: auto;
+}
+.text2{
+    margin-top: 5vh;
+    background-color: #fffafa;
+    width: 100%;
+    height: fit-content;
+
+}
+.text2 h2{
+    padding-top: 5vh;
+    
+}
+.text3{
+    width: fit-content;
+    margin: auto;
+}
+.text3 button{
+    border-radius: 2px;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    border: none;
+   font-size: 3vh;
+    width: fit-content;
+}
+.text4{
+    width: fit-content;
+    margin: auto;
+    margin-top: 5vh;
+}
+.footer{
+    display: grid;
+    height: 70vh;
+    background-color: black;
+    margin-top: 15vh;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    margin: auto;
+    margin-top: 4vh;
+}
+.footer1{
+    width: fit-content;
+    margin: 4vh auto 0 auto;
+    
+}
+.footer2{
+    width: fit-content;
+    margin: 4vh auto 0 auto;
+}
+.footer3{
+    width: fit-content;
+    margin: 4vh auto 0 auto;
+
+}
+.b{
+    color: white;
+  
+}
+.a{
+    border-bottom: 5px solid white;
+    width: 90px;
+}
+.footer li{
+    list-style: none;
+    padding: 1vh;
+    color: white;
+    font-size: 3vh;
+   margin-left: -5vh;
+}
+.foot{
+    margin-top: 8vh;
+}
+
+
+
